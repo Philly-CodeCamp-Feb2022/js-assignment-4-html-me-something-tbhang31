@@ -1,1 +1,145 @@
-/* Write your CSS here! */
+*{
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 20px;
+    margin: 8px;
+    display: block;
+    background-color: transparent;
+}  
+header,
+main.main,
+section.why.god,
+footer {
+    text-align: center;
+} 
+h1#mainHeading{
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:link {
+    color: black;
+}
+header a:hover {
+    color: green;
+}
+header a:visited {
+    color: red;
+}
+img {
+    background-color: red;
+}
+main.main {
+    border: dotted grey 2px;
+    margin: 30px 5px;
+} 
+button{
+    border: none;
+    font-family:'Roboto Condensed', sans-serif;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 25px;
+}
+button.white {
+    font-size: 40px;
+}
+button#crimson {
+  background-color: rgb(153,0,0);
+  color: gold;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+button#gold {
+   background-color: rgb(218,183,64);
+   color: crimson;  
+}
+button#magenta {
+    background-color: magenta;
+    color: gold;
+    font-family: 'Red Hat Mono', monospace;
+}
+p#testP.funPaaragraph{
+    color: green;
+}
+p.green{
+    color: rgb(0, 90, 0);
+}
+p.pink{
+    color: rgb(247, 159, 174);
+}
+p.gold{
+    color: goldenrod;
+}
+p.red{
+    color: red;
+}
+p.fancy{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+article.float img {
+    float:left;
+}
+article.float {
+    font-size: 3rem;
+    border: solid black 5px;
+    background-color: steelblue;
+}
+p.pink.clear a:link, p.pink.clear a:visited,p.pink.clear a:hover {
+    color: pink;
+}
+p.left{
+    float: left;
+}
+p.right{
+    float: right;
+}
+p.clear{
+    clear: both;
+    text-align: center;
+}
+section.flexBoxed {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+section.flexBoxed p {
+    padding:  50px 20px;
+    border: solid black 2px;
+}
+section.flexBoxed p{
+    background-color: white;
+}
+p.roboto {
+    font-family:'Roboto Condensed', sans-serif;
+}
+p.fancy {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p.redHat {
+    font-family: 'Red Hat Mono', monospace;
+}
+p a{
+    text-decoration: none;
+    color: peru;
+}
+section.why.god {
+    font-size: 64px;
+    margin: 30px 12px;
+    border: dotted navy 6px;
+    background-color: gainsboro;
+}
+footer {
+    border: solid 2px grey;
+    background-color: skyblue;
+    padding: 0 0 10px 0;
+}
+footer li {
+    text-decoration: none;
+    list-style: none;
+}
+footer li a:link, footer li a:visited {
+    color: navy;
+    text-decoration: none;
+    list-style: none;
+}
