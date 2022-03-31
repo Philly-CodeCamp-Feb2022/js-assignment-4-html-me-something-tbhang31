@@ -8,7 +8,7 @@ body {
     background-color: transparent;
 }  
 header,
-section.main,
+article.main,
 footer {
     text-align: center;
 } 
@@ -28,7 +28,7 @@ header a:visited {
 img {
     background-color: red;
 }
-section.main {
+article.main {
     border: dotted grey 2px;
     margin: 30px 5px;
 } 
@@ -43,12 +43,12 @@ button.white {
     font-size: 40px;
 }
 button#crimson {
-  background-color: crimson;
+  background-color: rgb(153,0,0);
   color: gold;
   font-family: 'Source Sans Pro', sans-serif;  
 }
 button#gold {
-   background-color: gold;
+   background-color: rgb(218,183,64);
    color: crimson;  
 }
 button#magenta {
@@ -74,10 +74,16 @@ p.red{
 p.fancy{
     font-family: 'Source Sans Pro', sans-serif;
 }
+section.float img {
+    float:left;
+}
 section.float {
     font-size: 3rem;
     border: solid black 5px;
     background-color: steelblue;
+}
+p.pink.clear a:link, p.pink.clear a:visited,p.pink.clear a:hover {
+    color: pink;
 }
 p.left{
     float: left;
