@@ -9,7 +9,8 @@ body {
     background-color: transparent;
 }  
 header,
-article.main,
+main.main,
+section.why.god,
 footer {
     text-align: center;
 } 
@@ -29,7 +30,7 @@ header a:visited {
 img {
     background-color: red;
 }
-article.main {
+main.main {
     border: dotted grey 2px;
     margin: 30px 5px;
 } 
@@ -75,10 +76,10 @@ p.red{
 p.fancy{
     font-family: 'Source Sans Pro', sans-serif;
 }
-section.float img {
+article.float img {
     float:left;
 }
-section.float {
+article.float {
     font-size: 3rem;
     border: solid black 5px;
     background-color: steelblue;
@@ -121,6 +122,12 @@ p.redHat {
 p a{
     text-decoration: none;
     color: peru;
+}
+section.why.god {
+    font-size: 64px;
+    margin: 30px 12px;
+    border: dotted navy 6px;
+    background-color: gainsboro;
 }
 footer {
     border: solid 2px grey;
